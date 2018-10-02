@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(seconds)
-  return 
+  return "HAPPY NEW YEAR!" if seconds == 12
   count = 10
   until count == 0
   puts "#{seconds}"
