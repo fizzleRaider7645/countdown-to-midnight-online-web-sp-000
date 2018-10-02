@@ -13,5 +13,6 @@ def countdown_with_sleep(seconds)
   count = seconds
   while count > 0
     sleep(1)
+    count -= 1
   end
 end
